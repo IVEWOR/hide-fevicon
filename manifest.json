@@ -1,0 +1,21 @@
+{
+    "name": "Hide Fevicon",
+    "version": "1.0.0",
+    "description": "A simple chrome extension to hide fevicons in browser.",
+    "author": "Deepak Jangra",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
